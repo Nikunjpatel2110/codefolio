@@ -1,0 +1,21 @@
+.tpl-corporate { font-family: 'Segoe UI', Arial, sans-serif; color: #1a1a2e; background: #f6f7fb; min-height: 100%; }
+.corp-header { background: #10233f; color: #fff; padding: 48px 24px; }
+.corp-header-inner { max-width: 900px; margin: 0 auto; display: flex; gap: 24px; align-items: center; }
+.corp-header-inner img { width: 88px; height: 88px; border-radius: 8px; object-fit: cover; }
+.corp-header h1 { margin: 0 0 6px; font-size: 26px; }
+.corp-header p { margin: 0 0 12px; color: #c9d6e3; max-width: 560px; }
+.corp-links a { color: #6cc4ff; margin-right: 16px; font-size: 14px; text-decoration: none; }
+.corp-main { max-width: 900px; margin: 0 auto; padding: 32px 24px; }
+.corp-card { background: #fff; border-radius: 10px; padding: 24px; margin-bottom: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+.corp-card h2 { margin-top: 0; font-size: 18px; }
+.corp-project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; }
+.corp-project-card { border: 1px solid #e6e9f0; border-radius: 8px; padding: 14px; }
+.corp-project-card img { width: 100%; border-radius: 6px; margin-bottom: 8px; }
+.corp-project-card h3 { margin: 0 0 4px; font-size: 16px; }
+.corp-project-card p { font-size: 13px; color: #555; }
+.corp-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+.corp-tags span { font-size: 11px; background: #eef2fb; color: #10233f; padding: 2px 8px; border-radius: 10px; }
+.corp-project-links a { font-size: 13px; margin-right: 12px; color: #10233f; font-weight: 600; text-decoration: none; }
+.corp-skill-columns { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 16px; }
+.corp-skill-columns h4 { margin: 0 0 6px; font-size: 13px; color: #10233f; }
+.corp-skill-columns ul { margin: 0; padding-left: 18px; font-size: 13px; color: #444; }
